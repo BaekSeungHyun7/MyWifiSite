@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: purple;
+    margin: 0 5px;
+}
+
+.location-form {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.location-form label {
+    margin: 0 5px;
+}
+
+.location-form input {
+    margin: 0 10px;
+    padding: 5px;
+}
+
+.location-form .location-button, .location-form .info-button {
+    padding: 5px 10px;
+    background-color: lightgray;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid rgb(12, 164, 108);
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: rgb(12, 164, 108);
+    color: white;
+}
+
+tfoot td {
+    text-align: center;
+    background-color: white;
+    font-weight: bold;
+    font-size: 70%;
+}
+
+
+
