@@ -17,9 +17,7 @@ public class WifiInfo {
     private double xCoord;
     private double yCoord;
     private String workDate;
-    private double distance;  // 추가된 필드
-
-    // Getters and setters
+    private double distance;
 
     public String getManagerNo() {
         return managerNo;
